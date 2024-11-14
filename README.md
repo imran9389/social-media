@@ -3,7 +3,7 @@ SOCIAL MEIDA REACT APP
 Installation
 To run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/socialmedia-react-app.git
+Clone the repository: git clone https://github.com/imran9389/socialmedia-react-app.git
 cd socialmedia-react-app
 
 install dependencies: npm install
