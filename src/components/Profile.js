@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className="profile">
       <div className="profile-header">
-        <div className="avatar-lg"></div>
+        <div className="avatar-lg">U</div>
         <h2>UserName</h2>
       </div>
       <div className="stats">
