@@ -1,8 +1,11 @@
-SocialMedia React App
+#SocialMedia React App
+
 A simple yet dynamic social media front-end application built with React and CSS. This app provides a clean and interactive interface for users to view, create, and like posts, as well as switch between light and dark modes. With enhanced features like a user profile section, infinite scrolling, and a modal for post creation, it aims to give users a modern social media experience.
+
 
 Features
 Dark Mode Toggle: Users can switch between light and dark themes for a comfortable viewing experience.
+
 Hero Section: A welcoming hero section with an introductory message.
 User Profile Section: Displays user stats such as posts, likes, and followers.
 Create New Post Modal: Users can create a new post using a modal pop-up.
@@ -12,7 +15,10 @@ Responsive Design: Works seamlessly across desktops, tablets, and smartphones.
 Project Structure
 The project is organized as follows:
 
-bash
+
+
+#bash
+
 Copy code
 src
 ├── App.js                 # Main application file
@@ -30,25 +36,26 @@ src
 Installation
 To run this project locally, follow these steps:
 
+
 Clone the repository:
 
-bash
+#bash
 Copy code
-git clone https://github.com/your-username/socialmedia-react-app.git
+git clone https://github.com/imran9389/socialmedia-react-app.git
 cd socialmedia-react-app
 Install dependencies:
 
-bash
+#bash
 Copy code
 npm install
 Start the application:
 
-bash
+#bash
 Copy code
 npm start
 Open the app in your browser:
 
-arduino
+#arduino
 Copy code
 http://localhost:3000
 Usage
@@ -57,17 +64,23 @@ View Posts: Scroll through the feed to see all available posts.
 Like a Post: Click the Like button to like a post.
 Add a Comment: Type a comment in the input field and submit it.
 Create a New Post: Click the New Post button to open a modal, enter post content, and submit.
-Components
+Components.
+
+
 1. Navbar
 Contains links for navigation and a toggle button for dark mode.
-2. Profile
+
+3. Profile
 Shows the user’s avatar, username, and basic stats such as posts, likes, and followers.
-3. Post
+
+5. Post
 Displays each post with the username, content, like button, and comments section.
-4. NewPostModal
+
+7. NewPostModal
 A modal pop-up allowing users to create and submit a new post.
 Styles
 The app is styled using CSS with class-based styling, and includes animations and transitions for a polished user experience.
+
 
 Key Styling Features
 Responsive Design: Uses flexible layouts to ensure compatibility across devices.
@@ -82,4 +95,4 @@ Infinite Scroll: Automatically load more posts when the user scrolls to the bott
 User Authentication: Enable user login and registration functionality.
 Notifications: Show real-time notifications for likes, comments, and followers.
 License
-This project is licensed under the MIT License. See the LICENSE file for more details
+This project is licensed under the MIT License. See the LICENSE file for more details.
