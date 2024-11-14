@@ -15,7 +15,6 @@ function Post({ post, onLike, onAddComment }) {
   return (
     <div className="post">
       <div className="post-header">
-        <div className="avatar">{post.username[0]}</div>
         <div>
           <h3>{post.username}</h3>
           <p className="timestamp">{post.time}</p>

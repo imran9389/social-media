@@ -8,8 +8,9 @@ import NewPostModal from './components/NewPostModal';
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [posts, setPosts] = useState([
-    { id: 1, username: 'User1', content: 'Hello World!', likes: 0, comments: [], time: '2 hours ago' },
-    { id: 2, username: 'User2', content: 'React is awesome!', likes: 0, comments: [], time: '4 hours ago' },
+    { id: 1, username: 'USER1', content: 'Hello World!', likes: 0, comments: [], time: '2 hours ago' },
+    { id: 2, username: 'USER2', content: 'React is awesome!', likes: 0, comments: [], time: '4 hours ago' },
+    { id: 3, username: 'USER3', content: 'React is awesome!', likes: 0, comments: [], time: '6 hours ago' },
   ]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
